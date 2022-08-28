@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30194" started-at="2022-08-28T13:46:31 IST" finished-at="2022-08-28T13:47:01 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30194" started-at="2022-08-28T13:46:31 IST" finished-at="2022-08-28T13:47:01 IST">
+      <class name="testcases.DeleteLead">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:testcases.DeleteLead@4ae82894]" name="setUp" is-config="true" duration-ms="15" started-at="2022-08-28T13:46:31 IST" finished-at="2022-08-28T13:46:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init()[pri:0, instance:testcases.DeleteLead@4ae82894]" name="init" is-config="true" duration-ms="5331" started-at="2022-08-28T13:46:33 IST" finished-at="2022-08-28T13:46:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="runLogin(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:testcases.DeleteLead@4ae82894]" name="runLogin" duration-ms="22968" started-at="2022-08-28T13:46:38 IST" data-provider="create" finished-at="2022-08-28T13:47:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[demoSalesManager]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[crmsfa]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8220322]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:testcases.DeleteLead@4ae82894]" name="tearDown" is-config="true" duration-ms="140" started-at="2022-08-28T13:47:01 IST" finished-at="2022-08-28T13:47:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- testcases.DeleteLead -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
